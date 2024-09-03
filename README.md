@@ -1,2 +1,2 @@
 # HandWritten-Digit-Recognition-for-Burmese-digits
-creating a machine learning model to recognize hand-written burmese digits
+A neural network that has 98% accuracy in recognizing burmese hand-written digits 
