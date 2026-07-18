@@ -1,0 +1,20 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard / training artifacts
+logs/
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
