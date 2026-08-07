@@ -1,6 +1,6 @@
 # Burmese Handwritten Digit Recognition
 
-A convolutional neural network that recognises handwritten Burmese digits (0-9), trained on the [BHDD dataset](https://github.com/baseresearch/BHDD), which is the Burmese counterpart to MNIST. Includes an interactive Tkinter app where you can draw a digit and get a instant prediction.
+A convolutional neural network that recognises handwritten Burmese digits (0-9), trained on the [BHDD dataset](https://github.com/baseresearch/BHDD). Includes an interactive Tkinter app where you can draw a digit and get a instant prediction.
 
 ## How to run it
 
@@ -12,7 +12,10 @@ jupyter notebook source.ipynb
 ```
 
 Run all cells top to bottom. Training may take a few minutes on CPU. The final cell launches the interactive drawing app.
-S
+
+## Results 
+The model achieved 98% test accuracy on training set size of 60,000 images across 10 classes for each digit.
+
 ## Dataset & licence
 
 This project uses the **Burmese Handwritten Digit Dataset (BHDD)** created by Base Technology / Expa.ai, released under CC BY-SA 4.0:
